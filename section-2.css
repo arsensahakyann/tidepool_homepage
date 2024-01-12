@@ -1,0 +1,41 @@
+.section-2{
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    gap: 30px;
+    display: flex;
+    padding: 0;
+}
+
+ul li{
+    overflow: hidden;
+    width: 402px;
+    height: 536px;
+}
+
+ul li img{
+    display: block
+
+}
+
+ul li div{
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.section-2 .part-1 span{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 59.4px;
+    color: #333333;
+}
+
+.section-2 .part-1 p{
+    font-weight: 600;
+    color: rgb(239, 78, 64);
+}
+
