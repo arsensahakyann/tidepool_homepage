@@ -1,6 +1,7 @@
 .section-2{
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 
 ul {
@@ -12,12 +13,12 @@ ul {
 
 ul li{
     overflow: hidden;
-    width: 402px;
-    height: 536px;
+    width: 405px;
 }
 
 ul li img{
-    display: block
+    display: block;
+    transition: .3s;
 
 }
 
@@ -39,3 +40,30 @@ ul li div{
     color: rgb(239, 78, 64);
 }
 
+.section-2 .part-1 img:hover{
+    transform: scale(1.02);
+}
+
+.section-2 .part-1 ul li small{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23.94px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #6c6c6c;
+    padding-top: 8px;
+}
+
+
+.section-2 .part-1 ul li p{
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 130%;
+    display: flex;
+    justify-content: center;
+    color:rgba(51, 51, 51, 1);
+    font-family: sans-serif;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
