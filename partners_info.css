@@ -1,0 +1,69 @@
+.partners_info{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.partners_list ul {
+    list-style: none;
+    gap: 30px;
+    display: flex;
+    padding: 0;
+}
+
+.partners_list ul li{
+    overflow: hidden;
+    width: 400px;
+}
+
+.partners_pic{
+    display: block;
+    transition: .3s;
+
+}
+
+.partners_list ul li div{
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.partners_list span{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 59.4px;
+    color: #333333;
+}
+
+.partners_list p{
+    font-weight: 600;
+    color: rgb(239, 78, 64);
+}
+
+.partners_pic:hover{
+    transform: scale(1.02);
+}
+
+.partners_list ul li small{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23.94px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #6c6c6c;
+    padding-top: 8px;
+}
+
+
+.partners_list .name{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    display: flex;
+    justify-content: center;
+    color:rgba(51, 51, 51, 1);
+    font-family: sans-serif;
+    margin-top: 16px;
+    margin-bottom: 0;
+}

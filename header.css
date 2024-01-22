@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    z-index: 10;
+}
+
+.header {
+    background-color: white;
+    width: 1442px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .menu a{
+    text-decoration: none;
+    color:rgba(74, 74, 74, 1);
+    font-family: 'Graphik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.header .menu a:hover{
+    color:rgba(247, 122, 90, 1);
+}
