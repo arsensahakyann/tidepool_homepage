@@ -19,7 +19,6 @@
 .partners_pic{
     display: block;
     transition: .3s;
-
 }
 
 .partners_list ul li div{
@@ -54,7 +53,6 @@
     color: #6c6c6c;
     padding-top: 8px;
 }
-
 
 .partners_list .name{
     font-weight: 700;

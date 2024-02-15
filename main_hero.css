@@ -4,7 +4,6 @@
 
 body{
     margin: 0;
-    height: 10000px;
 }
 
 .main_hero{
@@ -16,41 +15,6 @@ body{
     z-index: 11;
 }
 
-.horizontal_bar{
-    display: flex;
-    justify-content: space-between;
-    width: 1442px;
-    height: 80px;
-    position: absolute;
-    left: 240px;
-}
-
-.horizontal_bar .logo, .header .logo{
-    margin-left: 88px;
-    margin-top: 18px;
-}
-
-.menu{
-    display: flex;
-    width: 156px;
-    height: 28px;
-    margin-top: 28px;
-    margin-right: 92px;
-    gap: 48px;
-}
-
-.horizontal_bar .menu a{
-    text-decoration: none;
-    color: white;
-    font-family: 'Graphik', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 1px;
-}
-
-.horizontal_bar .menu a:hover{
-    color:brown;
-}
 .about-us{
     color: white;
     position: absolute;
@@ -83,4 +47,6 @@ body{
     height: 40px;
     position: absolute;
     top: 766px;
+    left: 50%;
+    transform: translate(-50%)
 }
