@@ -1,0 +1,72 @@
+header {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 80px;
+    width: 100%;
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 0);
+    width: 1442px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .menu a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 1);
+    font-family: 'Graphik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.header .menu a:hover{
+    color:brown;
+}
+
+.header .logo{
+    margin-left: 88px;
+    margin-top: 18px;
+}
+
+.menu{
+    display: flex;
+    width: 156px;
+    height: 28px;
+    margin-top: 28px;
+    margin-right: 92px;
+    gap: 48px;
+}
+
+.header .logo .colored{
+    display: none;
+}
+
+.fixed{
+    position: fixed;
+    z-index: -10;
+}
+
+.fixed .header{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.fixed .logo .uncolored{
+    display: none;
+}
+
+.fixed .logo .colored{
+    display: block;
+}
+
+.fixed .menu a{
+    color: rgb(100, 100, 100);
+}
+
+.fixed .menu a:hover{
+    color: rgba(247, 122, 90, 1);
+}

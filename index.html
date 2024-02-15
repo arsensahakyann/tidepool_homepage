@@ -4,64 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="section-1.css">
-    <link rel="stylesheet" href="section-2.css">
+    <title>Tidepool Labs</title>
+    <link rel="stylesheet" href="main_hero.css">
+    <link rel="stylesheet" href="partners_info.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
 <body>
-    <section class="section-1">
+    <section class="main_hero">
         <div style="overflow: hidden; background-color: rgba(0, 0, 0, 0.3)">
-            <video src="images/hero-video.mp4" autoplay loop></video>
+            <video autoplay loop muted>
+                <source src="https://pxp7hn3b3jxqy3.data.mediastore.us-east-1.amazonaws.com/hero-video.mp4" type="video/mp4">
+            </video>
         </div>
-        
-        <div class="header">
-            <div class="logo">
-                <a href="#"><img src="images/logos.svg" alt=""></a>
+        <header>
+            <div class="header">
+                <div class="logo">
+                    <a href="#"><img class='uncolored' src="images/logos.svg" alt=""><img class="colored" src="images/logos_colored.svg"></a>
+                </div>
+                <div class="menu">
+                    <a href="#">Team</a>
+                    <a href="#">Portfolio</a>
+                </div>
             </div>
-            <div class="menu">
-                <a href="">Team</a>
-                <a href="">Portfolio</a>
-            </div>
-        </div>
+        </header>
         <div class="about-us">
             <span>We work with founders <br> to <span class="bold">build</span> and <span class="bold">launch</span> companies from scratch</span>
             <p>Tidepool Labs is a venture studio</p>
         </div>
-        <a href="#"><img src="images/arrow.svg" alt="arrow"></a>
+        <a href="#" class="arrow"><img src="images/arrow.svg" alt="arrow"></a>
     </section>
-    <section class="section-2">
-        <div class="part-1">
+    <section class="partners_info">
+        <div class="partners_list">
             <span>We partner with founders to <br> bring <p style="display: inline;">ides</p> to life.</span>
             <ul>
                 <li>
                     <div>
-                        <img src="images/andrew_powell 1.svg" alt="Andrew Powell">
+                        <img class="partners_pic" src="images/andrew_powell 1.svg" alt="Andrew Powell">
                     </div>
-                    
-                    <p>Andrew Powell</p>
+                    <p class="name">Andrew Powell</p>
                     <small>Cofounder & CEO of Learn to Win</small>
                 </li>
                 <li>
                     <div>
-                        <img src="images/a 3.svg" alt="">
+                        <img class="partners_pic" src="images/a_3.svg" alt="">
                     </div>
-                    <p>Ted Mauze, Parker Walls & Will Coomber</p>
+                    <p class="name">Ted Mauze, Parker Walls & Will Coomber</p>
                     <small>Cofounders of Chalkboard</small>
                 </li>
                 <li>
                     <div>
-                        <img src="images/EllieMiri.svg" alt="">
+                        <img class="partners_pic" src="images/EllieMiri.svg" alt="">
                     </div>
-                    <p>Ellie Buckingham & Miri Buckland</p>
+                    <p class="name">Ellie Buckingham & Miri Buckland</p>
                     <small>Cofounders of LANDING</small>
                 </li>
             </ul>
         </div>
-
     </section>
-    
-
-
+    <footer>
+        <div>
+            <div>
+                <img src="images/logos_colored.svg" alt="logo">
+                <span>Our office</span>
+                <span>320 Judah St, Suite 4</span>
+                <span>San Francisco, CA 94122</span>
+            </div>
+            <div></div>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
