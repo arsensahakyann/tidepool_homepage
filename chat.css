@@ -1,0 +1,74 @@
+.chat {
+    background-color:rgba(51, 51, 51, 1);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.chat>div{
+    position: relative;
+    max-width: 1266px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.chat .cofounding{
+    display: grid;
+    margin-bottom: 40px;
+}
+
+.chat p {
+    justify-self: center;
+    margin: 0;
+    color: #aaa;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: sans-serif;
+    line-height: 30px;
+}
+
+.cofounding .team, .chat .grid p{
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 60px;
+    color: white;
+    margin-bottom: 24px;
+
+}
+
+.cofounding .team{
+    font-size: 52px;
+}
+
+.cofounding .team>span{
+    font-weight: 600; 
+    color: #ef4e40;
+}
+
+.chat .grid{
+    display: grid;
+    grid-template-areas: 'angle';
+    position: relative;
+    height: 760px;
+}
+
+.chat .grid img{
+    grid-area: angle;
+}
+
+.flex{
+    display: flex;
+}
+
+.letsChat{
+    position: absolute;
+    align-self: center;
+    justify-self: center;
+}
+
+.letsChat a{
+    text-decoration: none;
+}
+
+.letsChat a p{
+    font-size: 30px;
+}

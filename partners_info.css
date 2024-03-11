@@ -1,7 +1,7 @@
 .partners_info{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .partners_list ul {
@@ -35,6 +35,7 @@
 }
 
 .partners_list p{
+    display: inline;
     font-weight: 600;
     color: rgb(239, 78, 64);
 }
