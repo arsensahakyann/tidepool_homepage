@@ -5,14 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tidepool Labs</title>
+    <link rel="shortcut icon" href="images/logo-icon.svg" type="image/x-icon">
     <link rel="stylesheet" href="main_hero.css">
     <link rel="stylesheet" href="partners_info.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="chat.css">
+    <link rel="stylesheet" href="reviews.css">
 </head>
 <body>
     <section class="main_hero">
-        <div style="overflow: hidden; background-color: rgba(0, 0, 0, 0.3)">
+        <div class="overflow">
             <video autoplay loop muted>
                 <source src="https://pxp7hn3b3jxqy3.data.mediastore.us-east-1.amazonaws.com/hero-video.mp4" type="video/mp4">
             </video>
@@ -20,7 +23,9 @@
         <header>
             <div class="header">
                 <div class="logo">
-                    <a href="#"><img class='uncolored' src="images/logos.svg" alt=""><img class="colored" src="images/logos_colored.svg"></a>
+                    <a href="#"><img class='uncolored' src="images/logos.svg" alt="logo">
+                        <img class="colored" src="images/logos_colored.svg" alt="logo">
+                    </a>
                 </div>
                 <div class="menu">
                     <a href="#">Team</a>
@@ -29,32 +34,38 @@
             </div>
         </header>
         <div class="about-us">
-            <span>We work with founders <br> to <span class="bold">build</span> and <span class="bold">launch</span> companies from scratch</span>
+            <span>We work with founders <br> to 
+                <span class="bold">build</span> and 
+                <span class="bold">launch</span>
+                 companies from scratch
+            </span>
             <p>Tidepool Labs is a venture studio</p>
         </div>
-        <a href="#" class="arrow"><img src="images/arrow.svg" alt="arrow"></a>
+        <a href="#partners_info" class="arrow">
+            <img src="images/arrow.svg" alt="arrow">
+        </a>
     </section>
-    <section class="partners_info">
+    <section class="partners_info" id="partners_info">
         <div class="partners_list">
-            <span>We partner with founders to <br> bring <p style="display: inline;">ides</p> to life.</span>
+            <span>We partner with founders to <br> bring <p>ides</p> to life.</span>
             <ul>
                 <li>
                     <div>
-                        <img class="partners_pic" src="images/andrew_powell 1.svg" alt="Andrew Powell">
+                        <img class="partners_pic" src="images/partners-info/andrew_powell 1.svg" alt="Andrew Powell">
                     </div>
                     <p class="name">Andrew Powell</p>
                     <small>Cofounder & CEO of Learn to Win</small>
                 </li>
                 <li>
                     <div>
-                        <img class="partners_pic" src="images/a_3.svg" alt="">
+                        <img class="partners_pic" src="images/partners-info/chalkboard.svg" alt="Ted Mauze, Parker Walls & Will Coomber">
                     </div>
                     <p class="name">Ted Mauze, Parker Walls & Will Coomber</p>
                     <small>Cofounders of Chalkboard</small>
                 </li>
                 <li>
                     <div>
-                        <img class="partners_pic" src="images/EllieMiri.svg" alt="">
+                        <img class="partners_pic" src="images/partners-info/ellie_miri.svg" alt="Ellie Buckingham & Miri Buckland">
                     </div>
                     <p class="name">Ellie Buckingham & Miri Buckland</p>
                     <small>Cofounders of LANDING</small>
@@ -62,15 +73,194 @@
             </ul>
         </div>
     </section>
-    <footer>
+    <section class="reviews">
+        <div class="carousel_container">
+            <div class="review review1">
+                <div class="review_m">
+                    <img src="images/review-1/card_header_1.svg" alt="card header">
+                    <p class="card_message">
+                        "I've had a phenomenal experience with George, Thaisan and the full Tidepool
+                         team.  We've made a ton of progress together as a result of their hard work 
+                         over the past year. They've been great partners to us as we build and scale our startup."
+                    </p>
+                    <p class="card_owner">Andrew Powel</p>
+                    <p class="card_owner_message">Cofounder & CEO of Learn to Win</p>
+                </div>
+                <div class="review_pic">
+                    <img src="images/review-1/card_img_1.svg" alt="card img">
+                </div>                
+            </div>
+            <div class="review review2" >
+                <div class="review_m">
+                    <img src="images/review-2/card_header_2.svg" alt="card header">
+                    <p class="card_message">
+                        “Tidepool has been a strong partner that has grown with us since our initial concept phase.
+                         Thaisan and team have supported us in execution, hiring and strategy, and all of the unforeseen
+                          in between - we know we can count on them.”
+                    </p>
+                    <p class="card_owner">Ellie Buckingham & Miri Buckland</p>
+                    <p class="card_owner_message">Cofounders of Landing</p>
+                </div>
+                <div class="review_pic">
+                    <img src="images/review-2/card_img_2.svg" alt="card img">
+                </div>                
+            </div>
+            <div class="review review3">
+                <div class="review_m">
+                    <img src="images/review-3/card_header_3.svg" alt="card header">
+                    <p class="card_message">
+                        “From powerpoint pitch decks to the launch of our MVP, Tidepool has helped us chart our
+                         path through product development and weather the storms of early startup life. The success of 
+                         Chalkboard is their success too, and we cannot recommend them highly enough.”
+                    </p>
+                    <p class="card_owner">Ted Mauze, Parker Walls & Will Coomber</p>
+                    <p class="card_owner_message">Cofounders of Chalkboard</p>
+                </div>
+                <div class="review_pic">
+                    <img src="images/review-3/card_img_3.svg" alt="card img">
+                </div>                
+            </div>
+            <div class="review review4">
+                <div class="review_m">
+                    <img src="images/review-4/card_header_4.svg" alt="card header">
+                    <p class="card_message">“Tidepool has been integral in helping us grow and scale MDsave’s multiple platform product strategy.”</p>
+                    <p class="card_owner">Paul Ketchel</p>
+                    <p class="card_owner_message">Cofounder & CEO of MDsave</p>
+                </div>
+                <div class="review_pic">
+                    <img src="images/review-4/card_img_4.svg" alt="card img">
+                </div>                
+            </div>
+            <div class="review review5">
+                <div class="review_m">
+                    <img src="images/review-5/card_header_5.svg" alt="card header">
+                    <p class="card_message">
+                        “Tidepool helped us quickly move from an idea to a product the customers pay for. 
+                        Their engineers are talented and are part of the founding team. Driven by a passion for
+                         building great products, they constantly go above and beyond to get quality work done fast. 
+                         Tidepool’s commitment level to our project was unparalleled.”
+                    </p>
+                    <p class="card_owner">Dan Schmidt</p>
+                    <p class="card_owner_message">Cofounder & CEO of DoubleLoop</p>
+                </div>
+                <div class="review_pic">
+                    <img src="images/review-5/card_img_5.svg" alt="card img">
+                </div>                
+            </div>
+            <div class="review review6">
+                <div class="review_m">
+                    <img src="images/review-6/card_header_6.svg" alt="card header">
+                    <p class="card_message">“We consider Tidepool our secret weapon.”</p>
+                    <p class="card_owner">Esteban Castano</p>
+                    <p class="card_owner_message">Cofounder & CEO of TRM</p>
+                </div>
+                <div class="review_pic">
+                    <img src="images/review-6/card_img_6.svg" alt="card img">
+                </div>                
+            </div>
+            <div class="review review7">
+                <div class="review_m">
+                    <img src="images/review-7/card_header_7.svg" alt="card header">
+                    <p class="card_message">“Tidepool is our trusted technology partner in carving out our digital health future.”</p>
+                    <p class="card_owner">Bill Brodie</p>
+                    <p class="card_owner_message">CEO of Vigilant</p>
+                </div>
+                <div class="review_pic">
+                    <img src="images/review-7/card_img_7.svg" alt="card img">
+                </div>                
+            </div>
+            <div class="review review8">
+                <div class="review_m">
+                    <img src="images/review-8/card_header_8.svg" alt="card header">
+                    <p class="card_message">
+                        “I can’t think of a better place for aspiring founders to turn ideas into reality or small teams to accelerate product deployment.”
+                    </p>
+                    <p class="card_owner">Klodi Beqiri</p>
+                    <p class="card_owner_message">Founder & CEO of Crio</p>
+                </div>
+                <div class="review_pic">
+                    <img src="images/review-8/card_img_8.svg" alt="card img">
+                </div>                
+            </div>
+            <div class="review review9">
+                <div class="review_m">
+                    <img src="images/review-9/card_header_9.svg" alt="card header">
+                    <p class="card_message">
+                        “Working with the Tidepool Labs team has been a true joy and huge lift for the Octave team. 
+                        I've been consistently impressed with their passion for building product and their commitment
+                         to understand the “why's“ and not just the “what's“. It's a rare trait to find and even more 
+                         impactful coupled with their deep technical talent.”
+                    </p>
+                    <p class="card_owner">Julian Tempelsman</p>
+                    <p class="card_owner_message">Co-founder/CTO</p>
+                </div>
+                <div class="review_pic">
+                    <img src="images/review-9/card_img_9.svg" alt="card img">
+                </div>                
+            </div>
+        </div>
+        <div class="buttons">                        
+            <button id="prevBtn">
+                <img src="images/review-1/prevBtn.svg" alt="previous button">
+            </button>
+            <div>
+                <img src="images/review-1/rect.svg" alt="rect">
+            </div>
+            <button id="nextBtn">
+                <img src="images/review-1/nextBtn.svg" alt="next button">
+            </button>
+        </div>
+    </section>
+    <section class="chat">
         <div>
+            <div class="cofounding">
+                <p class="team">Your 
+                    <span>cofounding</span> 
+                    team
+                </p>
+                <p>We form a team of engineers, designers, and experienced advisors to take</p>
+                <p>your idea from prototype to product</p>
+            </div>
+            <div class="flex">
+                <div>
+                    <img src="images/Lets-chat/team.svg" alt="team">
+                </div>
+                <div class="grid">
+                    <img src="images/Lets-chat/diagonal.svg">
+                    <img src="images/Lets-chat/Rectangle27503.svg">
+                    <img src="images/Lets-chat/Rectangle27504.svg">
+                    <div class="letsChat">
+                        <a href="mailto:team@tidepoollabs.com">
+                            <p>
+                                Let's chat <img src="images/Lets-chat/letsChat.svg" alt="Lets chat">
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
             <div>
                 <img src="images/logos_colored.svg" alt="logo">
-                <span>Our office</span>
-                <span>320 Judah St, Suite 4</span>
-                <span>San Francisco, CA 94122</span>
             </div>
-            <div></div>
+            <div class="footer_info">
+                <div class="address">
+                    <span class="bold">Our office</span>
+                    <div>
+                        <span>320 Judah St, Suite 4</span>
+                        <span>San Francisco, CA 94122</span>
+                    </div>
+                </div>
+                <div class="contact_us">
+                    <span class="bold">Contact us</span>
+                    <a href="mailto:team@tidepoollabs.com"><span>team@tidepoollabs.com</span></a>
+                </div>
+            </div>
+            <div class="nickname">
+                <span>© Tidepool Labs 2024</span>
+            </div>
         </div>
     </footer>
     <script src="script.js"></script>

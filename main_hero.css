@@ -6,6 +6,10 @@ body{
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 .main_hero{
     position: relative;
     display: flex;
@@ -13,6 +17,10 @@ body{
     height: 100vh;
     justify-content: center;
     z-index: 11;
+}
+
+.main_hero .overflow{
+    overflow: hidden;
 }
 
 .about-us{
@@ -48,5 +56,5 @@ body{
     position: absolute;
     top: 766px;
     left: 50%;
-    transform: translate(-50%)
+    transform: translate(-50%);
 }
